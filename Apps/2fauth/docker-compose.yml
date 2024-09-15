@@ -54,7 +54,7 @@ x-casaos:
   tagline:
     en_us: A Web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes
   # Developer's information
-  developer: "bubka"
+  developer: "airdrive"
   # Author of this particular configuration
   author: AirDrive Apps
   # Icon URL for the application
