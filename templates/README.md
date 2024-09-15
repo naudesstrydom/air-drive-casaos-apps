@@ -15,27 +15,3 @@ https://github.com/bigbeartechworld/big-bear-casaos/archive/refs/heads/master.zi
 ```
 
 ## App Store Suggestions
-
-
-
-# Support The Project
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E5NDK3I)
-
-## Apps
-
-<!appsList>
-
-## UI How to
-
-[![Video](https://img.youtube.com/vi/iN-Zh9ul578/0.jpg)](https://youtu.be/iN-Zh9ul578)
-
-> **NOTE: Custom Appstore is only supported on CasaOS version [0.4.4](https://blog.casaos.io/blog/32.html) and above**
-
-## Contributions
-
-We warmly welcome and deeply appreciate all contributions, no matter how big or small they may be! Thank you from the bottom of our hearts ❤️
-
-## Credit
-
-Props to WisdomSky for giving me the template to build this app store. Check his app store out to: [https://github.com/WisdomSky/CasaOS-Coolstore](https://github.com/WisdomSky/CasaOS-Coolstore)
