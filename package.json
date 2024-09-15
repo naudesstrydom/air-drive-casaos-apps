@@ -1,7 +1,7 @@
 {
   "name": "airdrive-apps",
   "version": "1.0.5",
-  "description": "Aikr Drive Applications",
+  "description": "AirDrive Drive Applications",
   "main": "",
   "scripts": {
     "commit": "git-cz",
@@ -15,9 +15,9 @@
   "author": "",
   "license": "GNU General Public License v3.0",
   "bugs": {
-    "url": "https://github.com/bigbeartechworld/big-bear-casaos/issues"
+    "url": "https://airdrive.one"
   },
-  "homepage": "https://github.com/bigbeartechworld/big-bear-casaos#readme",
+  "homepage": "https://github.com/naudesstrydom/airdrive-apps#readme",
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
