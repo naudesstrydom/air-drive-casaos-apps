@@ -30,6 +30,7 @@ services:
       - /dev:/dev
       # Mount the host's /etc/localtime file to the container's /etc/localtime file (read-only)
       - /etc/localtime:/etc/localtime:ro
+      - /:/casaos
 
     # Map port 7681 on the host to port 7681 on the container
     ports:
@@ -54,8 +55,13 @@ services:
         - container: /etc/localtime
           description:
             en_us: "Container Path: /etc/localtime"
+        - container: /casaos
+          description:
+            en_us: "Container Path: /casaos"
       ports:
         - container: "7681"
+          description:
+            en_us: "Container Port: 7681"
 
 # CasaOS specific application metadata and configurations
 x-casaos:
@@ -69,7 +75,7 @@ x-casaos:
     en_us: Ncdu is a disk usage analyzer with an ncurses interface.
   developer: "bigbeartechworld"
   author: BigBearTechWorld
-  icon: ""
+  icon: "https://cdn.jsdelivr.net/gh/bigbeartechworld/big-bear-casaos/Apps/ncdu/logo.png"
   thumbnail: ""
   title:
     en_us: Ncdu

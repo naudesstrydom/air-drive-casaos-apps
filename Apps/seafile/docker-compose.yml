@@ -12,7 +12,7 @@ services:
     container_name: big-bear-seafile
 
     # Image to be used for the container
-    image: seafileltd/seafile-mc:11.0.9
+    image: seafileltd/seafile-mc:11.0.12
 
     # Container restart policy
     restart: unless-stopped
@@ -88,7 +88,7 @@ services:
   # Memcached service for seafile
   big-bear-seafile-memcached:
     container_name: big-bear-seafile-memcached
-    image: memcached:1.6.29
+    image: memcached:1.6.31
     entrypoint: memcached -m 256
     networks:
       - big_bear_seafile_network
